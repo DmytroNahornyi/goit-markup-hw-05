@@ -51,10 +51,14 @@
     </header>
     <!--Section hero-->
     <section class="hero">
+      
+
       <div class="container ">
+
         <h1 class="hero-text">Ефективні рішення для вашого бізнесу</h1>
-        <button type="button" class="button-hero">Замовити послугу</button>
+        <button type="button" class="button-hero" data-modal-open>Замовити послугу</button> 
       </div>
+
     </section>
 
     <!--Section logo 2-->
@@ -63,7 +67,7 @@
         <h2 class="hide">Заголовок</h2>
         <ul class="list section-prof text-prof ">
           <li>
-            <div class="test">
+            <div class="description">
               <svg class="icon-box">
                 <use href="./images/symbol-defs.svg#icon-antenna-1"></use>
               </svg>
@@ -72,7 +76,7 @@
             <p>Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
           </li>
           <li>
-            <div class="test">
+            <div class="description">
               <svg class="icon-box">
                 <use href="./images/symbol-defs.svg#icon-clock-1"></use>
               </svg>
@@ -81,7 +85,7 @@
             <p>Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
           </li>
           <li>
-            <div class="test">
+            <div class="description">
               <svg class="icon-box">
                 <use href="./images/symbol-defs.svg#icon-diagram-1"></use>
               </svg>
@@ -90,7 +94,7 @@
             <p>Так само консультація з широким активом значною мірою зумовлює.</p>
           </li>
           <li>
-            <div class="test">
+            <div class="description">
               <svg class="icon-box">
                 <use href="./images/symbol-defs.svg#icon-astronaut-1"></use>
               </svg>
@@ -378,5 +382,16 @@
         </div>
       </div>
     </footer>
+
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+          <button type="button" class="close close-svg" data-modal-close>
+            <svg class="close-img" >
+              <use href="./images/symbol-defs.svg#icon-close-black-18dp"></use>
+            </svg>
+          </button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
