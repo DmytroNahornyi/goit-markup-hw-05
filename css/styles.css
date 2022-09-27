@@ -99,12 +99,13 @@ a {
     flex-wrap: wrap;
 }
 
-.border {
+.header-bord {
+    border-bottom: 1px solid #ECECEC;
+}
+.header-nav {
     display: flex;
     align-items: center;
     height: 80px;
-    border: 1px solid var(--hero);
-    /* border: 1px solid #ECECEC; */
 }
 
 .main-nav {
