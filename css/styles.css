@@ -71,7 +71,10 @@ a {
 .header-futer a:focus {
     color: var(--logo);
     transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
+}
+
+.test {
     
 }
 .current::after {
@@ -301,22 +304,24 @@ rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)
     height: 44px;
     fill: currentColor;
     fill: var(--border);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-social {
     display: flex;
     width: 20px;
     height: 20px;
-    justify-content: 50%;
-    align-items: 50%;
+    /* justify-content: 50%;
+    align-items: 50%; */
+    
 }
 
 .icon-page:hover,
 .icon-page:active { 
     background-color: var(--button-hero);
     fill: var(--hero);
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 
 .section-prof h3{
@@ -356,14 +361,13 @@ rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)
     position: absolute;
     height: 70px;
     width: 100%;
-    padding-top: 27px;
-    padding-bottom: 27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-weight: 700;
     line-height: 1.14;
     letter-spacing: 0.03em;
-    text-align: center;
     bottom: 0;
-    /* left: 0; */
     color: var(--text-hidden);
     background: rgba(47, 48, 58, 0.8);
 }
@@ -431,14 +435,14 @@ rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)
     height: 100%;
     border: 1px solid var(--border);
     border-radius: 4px;
-
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 .client-a:hover,
 .client-a:focus {
     border-color: var(--button-hero); 
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .text-text:hover,
@@ -450,8 +454,7 @@ rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)
 .client-svg:hover,
 .client-svg:active { 
     fill: var(--button-hero);
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 
 .client-svg {
@@ -459,6 +462,8 @@ rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)
     width: 170px;
     height: 92px;
     padding: 15px 32px;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* Подвал */
@@ -518,13 +523,14 @@ rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)
     width: 44px;
     height: 44px; 
     margin-right: 10px;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-page:hover,
 .footer-page:active {
     background-color: var(--button-hero);
     fill: var(--footer-logo);
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .about-text {
@@ -564,6 +570,8 @@ rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)
     letter-spacing: 0.03em;
     text-align: center;
     display: inline-block;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .text {
     padding: 20px 24px;
@@ -598,7 +606,7 @@ rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)
 .techno { 
     position: relative;
     overflow: hidden;
-    
+
 }
 .block-content:hover .icon-hidden {
     transform: rotateY(0);
@@ -610,8 +618,7 @@ rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)
     color: var(--hero);
     background-color: var(--button-hero);
     border: 1px solid transparent;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 /* 2 страница заголовки */
@@ -696,6 +703,8 @@ rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)
     border-radius: 50%;
     border: 1px solid rgba(0, 0, 0, 0.1);
     cursor: pointer;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .close-svg{ 
@@ -714,7 +723,7 @@ rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)
 
 .modal button:hover,
 .modal button:focus {
+    fill: var(--logo);
     border-color: var(--logo);
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
 }
